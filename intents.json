@@ -1,0 +1,47 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem"],
+    "responses": ["Oi","Ola"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks"],
+    "responses": ["Ate breve","Falou"]
+  },
+  { "tag": "data_banca",
+    "patterns": ["Quando será a data da apresentação da banca?","Quando será a data da apresentação final?"],
+    "responses": ["19 de junho de 2023", "19/06/2023"]
+  },
+  {
+    "tag": "professor_disciplina",
+    "patterns":["Qual é o professor da disciplina?","Qual é o professor da disciplina CC7411?", "Qual é o professor da matéria?","Qual é o professor da matéria CC7411?"],
+    "responses": ["Destro", "Professor Destro"]
+  },
+  {
+    "tag": "quantidade_professores_banca",
+    "patterns":["Quantos professores tem na banca?","Quantos professores tem na banca do TCC?", "Quantos professores compõem a banca?", "Quantos professores compõem a banca do TCC?"],
+    "responses": ["Normalmente tres", "O seu orientador e mais dois"]
+
+  },
+  {
+    "tag": "professores_disponiveis",
+    "patterns":["Quais professores estão disponíveis para ser o orientador dos grupos?","Quais professores estão disponíveis para ser meu orientador?"],
+    "responses": ["Normalmente tres", "O seu orientador e mais dois"]
+
+  },
+  {
+    "tag": "integrantes_grupo",
+    "patterns":["Quantos alunos compõem um grupo do TCC?", "Quantos integrantes devem ter o meu grupo?"],
+    "responses": ["Normalmente 4", "Recomendado 4","Normalmente 4 integrantes", "Recomendado 4 integrantes"]
+  },
+  {
+    "tag": "relatorio_final",
+    "patterns":["O que esperar como resultado final do TCC?", "O que devo entregar no final do semestre?", "Qual documento devo entregar no final do semestre?"],
+    "responses": ["Uma monografia e um programa ou artefato desenvolvido pelos alunos"]
+  },
+  {  "tag": "aceitacao",
+    "patterns":["SIM", "S", "Sim", "s", "sim"],
+    "responses": ["MONOGRAFIA:\n Uma introducao e objetivos do trabalho\n Conceituacao do problema\n Revisao da literatura, que pode incluir um benchmark de solucoes de mercado\n Desenvolvimento de arquitetura de solucao, engenharia de software e demais tecnicas que descrevam a solucao proposta\n Discussao dos resultados e consideracoes finais.\n\nARTEFATO\n O artefato deve ser uma solucao computacional elaborada em um desenvolvimento de um software (e eventualmente o desenvolvimento de um hardware)."]
+  }
+
+]
+}
